@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+body {
+  color: #0a0a0a;
+  background: #fff;
+  font-family: "Mulish", sans-serif !important;
+  font-size: 15px;
+}
+
+@layer components {
+  .Resizer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+
+  @media (min-width: 576px) {
+    .Resizer {
+      width: 500px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .Resizer {
+      width: 720px;
+    }
+  }
+
+  @media (min-width: 958px) {
+    .Resizer {
+      width: 880px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .Resizer {
+      width: 960px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .Resizer {
+      width: 1140px;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .Resizer {
+      width: 1360px;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .Resizer {
+      width: 1460px;
+    }
+  }
+
+  .section {
+    padding: 80px 0px;
+  }
+
+  .just {
+    padding: 0px 0px 80px 0px;
+  }
+  .top {
+    padding: 80px 0px 0px 0px;
+  }
+
+  .justing {
+    padding: 0px 0px 60px 0px;
+  }
+
+  .Push {
+   margin-top: 80px;
+  }
+
+  .jus{
+    padding: 80px 0px 20px 0px;
+  }
+
+  @media (max-width: 1000px) {
+    .section {
+      padding: 60px 0px;
+    }
+  }
+  .bg-gradient {
+    background: linear-gradient(92.49deg, #9E4BFA -14.1%, #EE79AC 111.07%);
+  }  
+  .active-class {
+    background-color: #242ef21a;
+    border-left: 3px solid #242ef2;
+  }
+}
