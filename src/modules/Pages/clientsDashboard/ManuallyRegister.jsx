@@ -30,7 +30,6 @@ export default function AddStudentPage() {
             setCurrentPage(prevPage);
         }
     };
-
     return (
         <div className="">
             {/* Filter Section */}
